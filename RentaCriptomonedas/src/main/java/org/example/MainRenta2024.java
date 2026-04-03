@@ -9,7 +9,7 @@ import java.util.*;
 // Este corresponde a la declaración de abril 2025 (Campaña de Renta 2024)
 public class MainRenta2024 {
     public static void main(String[] args) throws IOException {
-        final String carpetaRenta = "C:/Users/j_gab/Documents/IRPF 2024 (abril 2025)/datos de exchanges/";
+        final String carpetaRenta = "C:/Users/<your_user>/Documents/IRPF 2024 (abril 2025)/datos de exchanges/";
         Map<String, Double> currencyValuesMap = fillMaxYearValuesToCriptocurrencies();
 
         System.out.println("==============   PROCESANDO BINANCE    ================================");
